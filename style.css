@@ -1,0 +1,110 @@
+body{
+	background-color: blue;
+	overflow-x: hidden ;
+	overflow-y: hidden;
+}
+.container{
+	position: relative;
+	width: 50%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left:  15%;
+	padding-right: 15%;
+}
+.g1{
+	position: absolute;
+	width: 50%;
+	height: 510px;
+	background-color: white;
+	border: 1px solide black;
+	left: 9.4%;
+	top: 1.5%;
+	margin: 5%;
+}
+.g2{
+	position: absolute;
+	width: 48%;
+	height: 510px;
+	background-color: white;
+	border: 1px solide black;
+	margin-left:45.6%;
+	margin-top: 5%;
+
+	
+}
+input[type=text1]{
+	
+	width: 70%;
+	border: 1px solid lightblue;
+	border-radius: 30px;
+    height: 40px;
+	background-color: lightblue;
+	outline: none;
+	margin-left: 9%;
+
+	
+}
+input[type=password]{
+	
+	width: 70%;
+	border: 1px solid lightblue;
+	border-radius: 30px;
+    height: 40px;
+	background-color: lightblue;
+	outline: none;
+	margin-left: 9%;
+
+	
+}
+input[type=button]{
+	background-color: blue;
+	width: 70%;
+	border: 1px solid white;
+	border-radius: 30px;
+    height: 45px;
+    margin-left: 10%;
+    border: none;
+    cursor: pointer;
+
+  
+}
+
+input[type=checkbox]{
+  display: inline-block;
+  margin-left: 13%;
+}
+hr{
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right,rgba(0, 0, 0, 0),
+ rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    }
+
+.text3{
+	color: blue;
+	margin-left: 33%;
+	text-decoration: none;
+}
+.text4{
+	color: blue;
+	margin-left: 40%;
+	text-decoration: none;
+}
+
+input:focus{
+   background-color: white;
+}
+label {
+  cursor: default;
+}
+@media (min-width: 320px) and (max-width : 767px)
+{
+	.g1{
+		display: none;
+	}
+	.g2{
+       left: -15%;
+       width: 76%;
+       margin-top: 12%;
+	}
+}
